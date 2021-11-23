@@ -2,8 +2,6 @@ buildscript {
     repositories {
         // Check that you have the following line (if not, add it):
         google()  // Google's Maven repository
-        // Add the Bintray repository
-        jcenter()
     }
     dependencies {
         classpath 'com.google.firebase:perf-plugin:1.4.0'
