@@ -3,13 +3,6 @@ name: Default
 on:
   pull_request:
   push:
-    branches:
-      - master
-      - main
-      - trunk
-      - develop
-      - maine
-      - mane
 
 jobs:
   build:
@@ -24,9 +17,9 @@ jobs:
       - name: set up JDK
         uses: actions/setup-java@v2
         with:
-          distribution: 'adopt'
-          java-version: 11
+          distribution: 'temurin'
+          java-version: 17
 
       - uses: gradle/gradle-build-action@v2
         with:
-          arguments: assemble
+          arguments: build
