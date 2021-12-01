@@ -1,2 +1,2 @@
-![img](iamge.png)
+![img](image.png)
 1.  https://issuetracker.google.com/issues/207946473
